@@ -21,7 +21,8 @@ Instructors:
 
 > Section(s)|Office| Instructor| Office hours
 > ---------- | ---------- | ------------- | ---------- 
-> 101 & 102	|KEC 115 (815-6547)| Krishna Kambhampaty <kkambhampaty@ycp.edu> | Wed: 9:30am - 2:30pm or by appointment
+> 101 & 102	|KEC 115 (815-6547)| Krishna Kambhampaty <kkambhampaty@ycp.edu> | Wed: 9:30am - 2:30pm 
+|||Fri: 10:30am - 12:00pm on Zoom or by appointment
 
 
 
