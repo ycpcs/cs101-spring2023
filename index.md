@@ -38,16 +38,17 @@ All information about the course will be posted here.
 
 ## News
 * **Jan 26** &mdash; Welcome back!  Please read [How to succeed in CS 101](success.html).  Also, in class we will ask you to complete a [prior experience survey](https://goo.gl/forms/zzfjES8HZK9TEthK2).
+* **Feb 07** &mdash; The Design for [Assignment 1](assign/assign01.html) is due.
+* **Feb 16** &mdash; The code for [Assignment 1](assign/assign01.html) is due in class.
+* **Feb 28** &mdash; The Design for MS1 [Assignment 2](assign/assign02.html) is due.
+* **Mar 02** &mdash; The code for MS1 [Assignment 2](assign/assign02.html) is due in class.
+* **Mar 07** &mdash; The Design for MS2[Assignment 2](assign/assign02.html) is due.
+* **Mar 07** &mdash; Exam 1 will be given in class on Thursday, Feb 17th.
+* **Mar 14** &mdash; The code for MS2 [Assignment 2](assign/assign02.html) is due in class.
 
 
 <!--
-* **Feb 15** &mdash; The Design for [Assignment 1](assign/assign01.html) is due.
-* **Feb 17** &mdash; The code for [Assignment 1](assign/assign01.html) is due by 11:59PM.
-* **Feb 17** &mdash; Exam 1 will be given in class on Thursday, Feb 17th.
-* **Mar 08** &mdash; The Design for MS1 [Assignment 2](assign/assign02.html) is due.
-* **Mar 13** &mdash; The code for MS1 [Assignment 2](assign/assign02.html) is due by 11:59PM.
-* **Mar 15** &mdash; The Design for MS2[Assignment 2](assign/assign02.html) is due.
-* **Mar 22** &mdash; The code for MS2 [Assignment 2](assign/assign02.html) is due by 11:59PM.
+
 * **Mar 29** &mdash; Exam 2 will take place in class on **Tuesday, Mar 29th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Mar 31** &mdash; **No class** on Thursday, Mar 31st due to Spartan Day.
 * **Mar 31** &mdash; The due date for [Assignment 3](assign/assign03.html) has been moved to **Thursday, Mar 31st**.
