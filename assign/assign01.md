@@ -138,19 +138,7 @@ The design is worth up to 15 points.  The design will be graded for effort rathe
 Submitting
 ==========
 
-Your design will be collected in class on the day that designs are due.
-
-To submit your program, make sure your **Freefall.cpp** file is saved, and in the Cygwin window type the command
-
-    make submit
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
-
-If the **make submit** command does not work, you can [submit using the web interface](../submitting.html) (see the link for details).
-
-Make sure that you check the file(s) you submitted to ensure that they are correct.  See the instructions for [Verifying your submission](../submitting.html#verifying-your-submission).
-
-<div class="callout">
+Upload your submissions in Canvas.
 <b>Important</b>: It is your responsibility to verify that you submitted the correct files.  You may receive a grade of 0 for incorrectly submitted work.
 </div>
 

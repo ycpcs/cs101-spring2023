@@ -83,9 +83,9 @@ You got a goat, sorry. The car was behind door 2
 
 ### Deliverables for Milestone 1
 
-The [design artifact](../design-template.pdf) for Milestone 1 is due at the beginning class on **Tuesday, Mar 08th**.  Make sure that you fill out the "Strategy" and "Control flow sketch" sections of the design template.
+The [design artifact](../design-template.pdf) for Milestone 1 is due at the beginning class on **Tuesday, Feb 28th**.  Make sure that you fill out the "Strategy" and "Control flow sketch" sections of the design template.
 
-The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Sunday, Mar 13th**.
+The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Thursday, Mar 02nd**.
 
 ## Milestone 2
 
@@ -120,7 +120,7 @@ You won 66.67% of the games
 
 There are three deliverables for Milestone 2.
 
-**First deliverable**: The [design artifact](../design-template.pdf) for Milestone 2 is due in class on **Tuesday, Mar 15th**.
+**First deliverable**: The [design artifact](../design-template.pdf) for Milestone 2 is due in class on **Tuesday, Mar 07th**.
 
 **Second deliverable**: Modify the program to allow the player to play multiple times as described above.
 
@@ -135,7 +135,7 @@ For each strategy, play the game 20 times. What percentage of games did you win 
 
 Using Notepad++, create an empty document and write a brief summary of your findings. Save it as a file called **experiment.txt** in your **CS101\_Assign02** folder. In the report, indicate what percentage of games you won using each strategy. If one strategy seems to be better, state which one.
 
-Submit your code and report (the second and third deliverables) to Marmoset by running `make submit_ms2`.  They are due by the end of day on **Tuesday, Mar 22nd**.
+Submit your code and report (the second and third deliverables) to Marmoset by running `make submit_ms2`.  They are due by the end of day on **Tuesday, Mar 14th**.
 
 Hints
 -----
@@ -190,23 +190,6 @@ Your grade for milestone 2 will be determined as follows:
 
 Submitting
 ----------
-
-To submit your code, make sure your **MontyHall.cpp** file is saved, and in the Cygwin window type one of the following commands (depending on whether you are submitting **Milestone 1** or **Milestone 2**).
-
-For **Milestone 1**:
-
-    make submit_ms1
-
-File **Milestone 2**:
-
-    make submit_ms2
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen. Make sure that after you enter your username and password, you see a message indicating that the submission was successful.
-
-If the **make** commands above do not work, you can [submit using the web interface](../submitting.html) (see the link for details).
-
-Make sure that you check the file(s) you submitted to ensure that they are correct.  See the instructions for [Verifying your submission](../submitting.html#verifying-your-submission).
-
-<div class="callout">
+Upload your submissions in Canvas.
 <b>Important</b>: It is your responsibility to verify that you submitted the correct files.  You may receive a grade of 0 for incorrectly submitted work.
 </div>
