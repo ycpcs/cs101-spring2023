@@ -73,9 +73,6 @@ Use the **scanf** function to read values typed by the user into your **double**
 
 Submit
 ======
-
-To submit your work, type the command
-
-    make submit
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen.
+Upload your submissions in Canvas.
+<b>Important</b>: It is your responsibility to verify that you submitted the correct files.  You may receive a grade of 0 for incorrectly submitted work.
+</div>
