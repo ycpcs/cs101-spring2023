@@ -43,7 +43,7 @@ All information about the course will be posted here.
 * **Feb 28** &mdash; The Design for MS1 [Assignment 2](assign/assign02.html) is due.
 * **Mar 02** &mdash; The code for MS1 [Assignment 2](assign/assign02.html) is due in class.
 * **Mar 07** &mdash; The Design for MS2[Assignment 2](assign/assign02.html) is due.
-* **Mar 07** &mdash; Exam 1 will be given in class on Thursday, Feb 17th.
+* **Mar 07** &mdash; Exam 1 will be given in class on Tuesday, Mar 7th.
 * **Mar 14** &mdash; The code for MS2 [Assignment 2](assign/assign02.html) is due in class.
 
 

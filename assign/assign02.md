@@ -7,7 +7,7 @@ title: "Assignment 2: Let's Make A Deal"
 
 * Milestone 1:
     * Design due: **Tuesday, Feb 28th** in class
-    * Code due: **Thursday, Mar 02nd** in class
+    * Code due: **Saturday, Mar 04th** in class
 * Milestone 2:
     * Design due: **Tuesday, Mar 07** in class
     * Code due: **Tuesday, Mar 14th** in class
@@ -85,7 +85,7 @@ You got a goat, sorry. The car was behind door 2
 
 The [design artifact](../design-template.pdf) for Milestone 1 is due at the beginning class on **Tuesday, Feb 28th**.  Make sure that you fill out the "Strategy" and "Control flow sketch" sections of the design template.
 
-The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Thursday, Mar 02nd**.
+The code for Milestone 1 should be submitted to Marmoset (using the command `make submit_ms1`) by the end of the day on **Saturday, Mar 04th**.
 
 ## Milestone 2
 
