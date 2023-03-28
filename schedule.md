@@ -44,7 +44,7 @@ May 02 | **Exam 3 Review**| |
 May 04 | **Exam 3**| |
 Thu, May 11| **Final Exam for Section 101 @ 8:00 AM - 10:00 AM**
 Thu, May 11| **Final Exam for Section 102 @ 10:15 AM - 12:15 PM**
--->
+
 
 <!-- vim:set wrap: -->
 <!-- vim:set linebreak: -->
