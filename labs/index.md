@@ -17,10 +17,10 @@ Labs are worth 10% of your course grade.  To receive credit for a lab, you must 
 > Feb 24        | [Lab 6: Checking the Weather](lab06.html)             | [CS101\_Lab06.zip](CS101_Lab06.zip)
 > Mar 4        | [Lab 7: For loops](lab07.html)                     | n/a
 > Mar 4        | [Lab 8: Gone loopy](lab08.html)                    | [CS101\_Lab08.zip](CS101_Lab08.zip)
-> Mar 18        | [Lab 9: Bar Graph](lab09.html) <br /> [Lab 10: Fancy Rectangle](lab10.html) | [CS101\_Lab09.zip](CS101_Lab09.zip) <br /> [CS101\_Lab10.zip](CS101_Lab10.zip)
+> Mar 28        | [Lab 9: Bar Graph](lab09.html) <br /> [Lab 10: Fancy Rectangle](lab10.html) | [CS101\_Lab09.zip](CS101_Lab09.zip) <br /> [CS101\_Lab10.zip](CS101_Lab10.zip)
 > Mar 18         | **Optional** [Lab 11: Barn Door](lab11.html)       | [CS101\_Lab11.zip](CS101_Lab11.zip)
-> Mar 21         | [Lab 12: Array Exercises](lab12.html)              | n/a
-> Mar 22        | [Lab 12b: Sorting and Finding Median of an Array](lab12b.html) | [CS101\_Lab12b.zip](CS101_Lab12b.zip)
+> Mar 28         | [Lab 12: Array Exercises](lab12.html)              | n/a
+> Mar 28        | [Lab 12b: Sorting and Finding Median of an Array](lab12b.html) | [CS101\_Lab12b.zip](CS101_Lab12b.zip)
 > Apr 10        | **Optional** [Lab 13: Kitten Pictures](lab13.html) | [CS101\_Lab13.zip](CS101_Lab13.zip)
 > Apr 08        | [Lab 14: Right Triangle](lab14.html)               | [CS101\_Lab14.zip](CS101_Lab14.zip) 
 > Apr 12        | [Lab 15: Simple Stats](lab15.html)                 | [CS101\_Lab15.zip](CS101_Lab15.zip)
@@ -30,8 +30,6 @@ Labs are worth 10% of your course grade.  To receive credit for a lab, you must 
 > Apr 27         | [Lab 24: Mini Golf](lab24.html)                    | [CS101\_Lab24.zip](CS101_Lab24.zip)
 
 <!--
-
-
 > Nov 20        | [Lab 17: Grass Fire](lab17.html)                   | [CS101\_Lab17.zip](CS101_Lab17.zip)
 > Nov 22, Dec 4 | [Lab 25: Boing! particle simulation](lab25.html)   | [CS101\_Lab25.zip](CS101_Lab25.zip)
 -->
