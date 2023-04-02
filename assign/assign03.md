@@ -19,16 +19,16 @@ Your task for this assignment is to complete the following CloudCoder exercises.
 
 The exercises:
 
-1. [Echo input](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=870) <!-- 23:40 -->
-2. [Count up](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=873) <!-- 23:41 -->
-3. [plus four](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=882) <!-- 23:42 -->
-4. [skip counting](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=881) <!-- 23:43 -->
-5. [triangle counting](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=883) <!-- 23:44 -->
-6. [Count down](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=880) <!-- 23:45 -->
-7. [mirror pairs](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=886)  <!-- 23:46 -->
-8. [Print divisors](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=869) <!-- 23:47 -->
-9. [powers of 2](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=878) <!-- 23:48 -->
-10. [count evens](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=874) <!-- 23:50 -->
+1. [Echo input](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1843) <!-- 23:40 -->
+2. [Count up](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1846) <!-- 23:41 -->
+3. [plus four](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1855) <!-- 23:42 -->
+4. [skip counting](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1854) <!-- 23:43 -->
+5. [triangle counting](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1856) <!-- 23:44 -->
+6. [Count down](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1853) <!-- 23:45 -->
+7. [mirror pairs](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1859)  <!-- 23:46 -->
+8. [Print divisors](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1842) <!-- 23:47 -->
+9. [powers of 2](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1851) <!-- 23:48 -->
+10. [count evens](https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1847) <!-- 23:50 -->
 
 ## Hints
 
