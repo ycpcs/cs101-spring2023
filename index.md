@@ -45,14 +45,16 @@ All information about the course will be posted here.
 * **Mar 07** &mdash; The Design for MS2[Assignment 2](assign/assign02.html) is due.
 * **Mar 07** &mdash; Exam 1 will be given in class on Tuesday, Mar 7th.
 * **Mar 14** &mdash; The code for MS2 [Assignment 2](assign/assign02.html) is due in class.
-* **Apr 6** &mdash; Exam 2 will take place in class on **Thursday, Apr 6th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
+* **Apr 6** &mdash; Exam 2 will take place in class on **Thursday, Apr 6th**. 
+	* A practice exam has been posted on the [Practice Exams](practice/index.html) page.
+* **Apr 11** &mdash; The due date for [Assignment 3](assign/assign03.html) is **Tuesday, Apr 11th**.
 
 
 <!--
 
 * **Mar 29** &mdash; Exam 2 will take place in class on **Tuesday, Mar 29th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Mar 31** &mdash; **No class** on Thursday, Mar 31st due to Spartan Day.
-* **Mar 31** &mdash; The due date for [Assignment 3](assign/assign03.html) has been moved to **Thursday, Mar 31st**.
+
 * **Apr 14** &mdash; Assignment 4 Design [Assignment 4](assign/assign04.html) is due on Thursday, April 14th.
 * **Apr 21** &mdash; Assignment 4 Code [Assignment 4](assign/assign04.html) is due on Thursday, April 21st.
 * **Apr 28** &mdash; The code for [Assignment 6](assign/assign06.html) **Milestone 1** is due by 11:59PM
