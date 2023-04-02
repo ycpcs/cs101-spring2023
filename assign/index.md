@@ -13,10 +13,11 @@ Assignment | File | Due date(s)
 ---------- | ---- | -----------
 [Assignment 1: Freefalling](assign01.html) | [CS101\_Assign01.zip](CS101_Assign01.zip) | Design: Tues, Feb 7th<br>Code: Thurs, Feb 16th
 [Assignment 2: Let's Make a Deal](assign02.html) | [CS101\_Assign02.zip](CS101_Assign02.zip) | MS1 Design: Tues, Feb 28th<br>MS1 Code: Sat, Mar 04th<br>MS2 Design: Tues, Mar 07th<br>MS2 Code/Report: Tue, Mar 14th
+[Assignment 3: Loop Exercises](assign03.html) | n/a | Apr, 11th
 
 <!--
 
-[Assignment 3: Loop Exercises](assign03.html) | n/a | Thurs, Mar 31st
+
 [Assignment 4: Tipping Dominoes](assign04.html) | [CS101\_Assign04.zip](CS101_Assign04.zip) | Design: Thurs, Apr 14th<br>Code: Thurs, Apr 21st
 [Assignment 6: Chomp! Chomp! Chomp!](assign06.html) | [CS101\_Assign06.zip](CS101_Assign06.zip) | MS1 Code: Monday, May 02nd<br>MS2 Code: Sun, May 8th
 -->

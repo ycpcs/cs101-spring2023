@@ -2,8 +2,7 @@
 layout: default
 title: "Assignment 3: Loop Exercises"
 ---
-**Update: New due date:Thursday, March 31st by 11:59 PM**
-**Old Due date:Tuesday, March 29th by 11:59 PM**
+**Due date:Tuesday, Apr 11th**
 
 
 <div class="callout">
@@ -30,11 +29,6 @@ The exercises:
 8. [Print divisors](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=869) <!-- 23:47 -->
 9. [powers of 2](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=878) <!-- 23:48 -->
 10. [count evens](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=874) <!-- 23:50 -->
-11. [First digit](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=872) <!-- 23:51 -->
-12. [Largest digit](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=868) <!-- 23:52 -->
-13. [is undulating?](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=885) <!-- 23:53 -->
-14. [Perfect Number](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=867) <!-- 23:54 -->
-15. [is kth power?](https://cs.ycp.edu/cloudcoder/#exercise?c=17,p=884) <!-- 23:55 -->
 
 ## Hints
 
