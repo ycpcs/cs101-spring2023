@@ -2,7 +2,8 @@
 layout: default
 title: "Assignment 3: Loop Exercises"
 ---
-**Due date:Tuesday, Apr 11th**
+**New due date: Friday, April 14th**
+~~**Old due date:Tuesday, Apr 11th**~~
 
 
 <div class="callout">

@@ -108,8 +108,4 @@ To find the median, after the array is sorted the median is either
 
 # Submit
 
-To submit your work, type the command
-
-    make submit
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen.
+Upload your submissions in Canvas.

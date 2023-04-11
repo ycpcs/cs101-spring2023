@@ -67,9 +67,4 @@ You can draw solid blocks of color by using **cons\_change\_color** to set the b
 
 Submit
 ======
-
-Submit using
-
-    make submit
-
-and enter your Marmoset username and password when prompted.
+Upload your submissions in Canvas.

@@ -63,8 +63,4 @@ A good way to specify an expected value for a function that does a numeric compu
 
 # Submitting
 
-When you are done, run the following command from the Cygwin bash shell:
-
-    make submit
-
-You will be prompted for your Marmoset username and password, which you should have received by email. Note that your password will not appear on the screen.
+Upload your submissions in Canvas.

@@ -128,8 +128,4 @@ View the resulting image by opening **rgb.bmp** in your web browser.
 Submitting
 ==========
 
-To submit your work, type the command
-
-    make submit
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen.
+Upload your submissions in Canvas.

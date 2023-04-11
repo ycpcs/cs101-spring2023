@@ -13,7 +13,7 @@ Assignment | File | Due date(s)
 ---------- | ---- | -----------
 [Assignment 1: Freefalling](assign01.html) | [CS101\_Assign01.zip](CS101_Assign01.zip) | Design: Tues, Feb 7th<br>Code: Thurs, Feb 16th
 [Assignment 2: Let's Make a Deal](assign02.html) | [CS101\_Assign02.zip](CS101_Assign02.zip) | MS1 Design: Tues, Feb 28th<br>MS1 Code: Sat, Mar 04th<br>MS2 Design: Tues, Mar 07th<br>MS2 Code/Report: Tue, Mar 14th
-[Assignment 3: Loop Exercises](assign03.html) | n/a | Apr, 11th
+[Assignment 3: Loop Exercises](assign03.html) | n/a | New due date: Apr, 14th (Old due date Apr, 11th)
 
 <!--
 

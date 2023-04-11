@@ -22,7 +22,7 @@ Labs are worth 10% of your course grade.  To receive credit for a lab, you must 
 > Mar 28         | [Lab 12: Array Exercises](lab12.html)              | n/a
 > Mar 28        | [Lab 12b: Sorting and Finding Median of an Array](lab12b.html) | [CS101\_Lab12b.zip](CS101_Lab12b.zip)
 > Apr 10        | **Optional** [Lab 13: Kitten Pictures](lab13.html) | [CS101\_Lab13.zip](CS101_Lab13.zip)
-> Apr 08        | [Lab 14: Right Triangle](lab14.html)               | [CS101\_Lab14.zip](CS101_Lab14.zip) 
+> Apr 12        | [Lab 14: Right Triangle](lab14.html)               | [CS101\_Lab14.zip](CS101_Lab14.zip) 
 > Apr 12        | [Lab 15: Simple Stats](lab15.html)                 | [CS101\_Lab15.zip](CS101_Lab15.zip)
 > Apr 14        | [Lab 16: Function Design](lab16.html)              | [CS101\_Lab16.zip](CS101_Lab16.zip)
 > Apr 20         | [Lab 18: Fancy Output](lab18.html) <br /> [Lab 21: Boing! revisited](lab21.html) | [CS101\_Lab18.zip](CS101_Lab18.zip) <br /> [CS101\_Lab21.zip](CS101_Lab21.zip)

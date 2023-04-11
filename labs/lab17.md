@@ -97,11 +97,7 @@ Finally, implement the simulation loop so that it calls the **update\_cells** an
 Submitting
 ----------
 
-To submit your work, type the command
-
-    make submit
-
-Enter your Marmoset username and password (which you should have received by email.) Note that your password will not be echoed to the screen.
+Upload your submissions in Canvas.
 
 **Important**:
 

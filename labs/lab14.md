@@ -106,8 +106,4 @@ Enter the height for your triangle: <b>9</b>
 Submitting
 ==========
 
-When you are done, run the following command from the Cygwin bash shell:
-
-    make submit
-
-You will be prompted for your Marmoset username and password, which you should have received by email. Note that your password will not appear on the screen.
+Upload your submissions in Canvas.
