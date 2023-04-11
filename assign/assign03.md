@@ -3,6 +3,7 @@ layout: default
 title: "Assignment 3: Loop Exercises"
 ---
 **New due date: Friday, April 14th**
+
 ~~**Old due date:Tuesday, Apr 11th**~~
 
 
