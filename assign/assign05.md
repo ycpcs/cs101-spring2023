@@ -1,232 +1,121 @@
 ---
 layout: default
-title: "Assignment 5: Snake"
+title: "Assignment 5: Falling Dominoes"
 ---
 
-*Update 5/3*: updated grading rubric to include design artifacts
+Design due in class on **Thursday, April 14th**
 
-**Due dates**:
-
-Design artifacts due on **Tuesday, Apr 26th**
-
-Code due on **Thursday, Apr 28th**
+Code due **Thursday, April 21st** by 11:59 PM
 
 # Getting Started
 
-Start by downloading [CS101\_Assign05.zip](CS101_Assign05.zip), saving it in the CS101 directory within your home directory.
+Start by downloading [CS101\_Assign05.zip](CS101_Assign05.zip), saving it in the directory **H:\\CS101**.
 
-Start a Cygwin Bash Shell (or Linux terminal, or MacOS terminal) and run the following commands:
+Then run the commands
 
-    cd h:
-    cd CS101
-    unzip CS101_Assign05.zip
-    cd CS101_Assign05
-
-(Note that you should omit the cd h: step on Linux and MacOS.)
-
-Using a text editor (e.g., Notepad++), open the file 
-
-    CS101/CS101_Assign05/Snake.cpp
-
-You will add your code to this file.
-
-# Your Task
-
-Your task is to implement a [Snake](http://en.wikipedia.org/wiki/Snake_%28video_game%29) game.
-
-The play controls a snake.  The snake consists of some number of segments.  At each time step, the snake's head segment moves up, right, down, or left, and the other segments of the snake follow.  The player can control the direction of the snake's head using the arrow keys.  At all times, there is a piece of fruit on the playing field.  If the snake eats the fruit (i.e., the snake's head segment reaches the fruit), the snake grows by one segment.  When the fruit is eaten, a new piece of fruit appears in a random location.  If the snake's head goes out of bounds, or if the snake's head collides with one of the snake's body segments, the game is over.
-
-Here is an animation showing gameplay:
-
-> ![snake game](images/assign05/snake.gif)
-
-Here is an animation showing the player losing because the snake's head went out of bounds:
-
-> ![snake goes out of bounds](images/assign05/outofbounds.gif)
-
-Here is an animation showing the player losing because the snake's head collided with its body:
-
-> ![snake collides with its body](images/assign05/collideself.gif)
-
-You will use the terminal graphics functions: see [Lab 18](../labs/lab18.html), [Lab 19](../labs/lab19.html), [Lab 21](../labs/lab21.html), and especially [Lab 23](../labs/lab23.html) and [Lab 24](../labs/lab24.html).
-
-# Approach
-
-This is a substantial assignment.  Here is a suggested approach to getting all of the features of the program working:
-
-1. Define `struct Point` and `struct Snake` data types.
-2. Add fields to `struct Scene` to represent the snake.
-3. Add code to `scene_init` to initialize the snake.
-4. Add code to `scene_render` to draw the segments of the snake.  The snake should be visible, but will not move.
-5. Add code to `scene_update` to move the snake by adding a new head segment and removing the current tail segment. The snake will now move in one direction.
-6. Add code to `scene_update` to check for keypresses, changing the direction of the snake as appropriate when an arrow key is pressed.  Now you should be able to control the snake.
-7. Add code to `scene_update` to detect if the snake's head has moved out of bounds, and if so, set a "game over" flag in the `struct Scene`.  Also, add code to `scene_render` to print a game over message when the game over flag is set.
-8. Add code to `scene_update` to detect if the snake's head has collided with any of its body segments, and if so, set a game over flag in `struct Scene`.
-9. Add code to check whether the snake's head is in the same place as the piece of fruit, and if so, increase the player's score, increase the snake's number of segments by 1, and place a new piece of fruit in a random location.  (Make sure that the new fruit location isn't in the same place as any of the snake's segments.)
-
-Note that only items 1&ndash;8 are required for full credit on the assignment.
-
-# Hints, specifications, and requirements
-
-## Playing field, rendering
-
-The playing field should be 80 characters wide by 23 characters high.  (This leaves one row in the terminal available for displaying the current score and number of segments.)
-
-The `scene_render` function should use the terminal graphics functions to render a visual representation of the game state, including:
-
-* The segments of the snake
-* The piece of fruit
-* The current score
-* The current number of segments
-
-The score and number of segments should be rendered in the last row of the terminal.
-
-## `struct Scene`, `main` function
-
-The starting code has a `struct Scene` data type and an example `main` function.  You should add fields to `struct Scene` to represent the current game state.  **Important**: you may *not* modify the `main` function.  This means that you must define `scene_init`, `scene_render`, and `scene_update` functions that can work with the code in the `main` function.
-
-Here is a possible definition for the `struct Scene` data type:
-
-```c
-struct Scene {
-    struct Snake snake;
-};
+```
+cd h:
+cd CS101
+unzip CS101_Assign05.zip
 ```
 
-Note that as you add additional features (fruit, score) you may need to add additional fields to this data type.
+You should now have a directory called **CS101\_Assign05** containing the assignment files.
 
-## Defining struct types and functions
+Add your code to the file **FallingDominoes.cpp**.
 
-In addition to the `struct Scene` data type, you should define data types `struct Point` and `struct Snake`.
+# Your task
 
-The `struct Point` data type might be defined as follows:
+In this assignment, you will write a program that allows the user to simulate falling dominoes.
 
-```c
-struct Point {
-    int x, y;
-};
-```
+Your program should start by allowing the user to determine the initial configuration of the "playing field" consisting of 10 positions. Once the configuration has been entered by the user, the program should print a line of text which is a "picture" of the initial configuration.
 
-You should define the following functions to operate on instances of `struct Point` and `struct Snake`:
+Next, the program should simulate what happens when the first domino is pushed over: in other words, the simulation begins by changing the domino at position 1 from upright to tipping (if it was initially upright).
 
-{% highlight cpp %}
-void point_init(struct Point *p, int x, int y);
-void snake_init(struct Snake *snake);
-void snake_append_head(struct Snake *snake, int x, int y);
-void snake_remove_tail(struct Snake *snake);
-struct Point snake_get_head(const struct Snake *snake);
-struct Point snake_get_segment(const struct Snake *snake, int index);
-{% endhighlight %}
+After the first domino has been tipped, the simulation should run for exactly **10** time steps.  The rules of the simulation are as follows:
 
-`point_init` should initialize an instance of `struct Point` by storing the specified x and y coordinate values.
+-   There are 10 positions, with position 1 being the leftmost position
+-   The simulation begins by changing the domino at position 1 to "tipping"
+-   On each timestep, each tipping domino will cause its neighbor to the right to change from upright to tipping (if the neighbor is upright); then the tipping domino will change to horizontal
+-   At the end of each timestep, the program should print a picture of the current simulation state.
 
-`snake_init` should initialize an instance of `struct Snake`.  The snake should have 8 segments initially.  The snake's initial position, configuration, and direction is up to you.  See the "Implementing the snake" section for more details.
+When printing out the simulation state, each upright domino should be represented by a "\|" character, each tipping domino by "/", each horizontal domino by "\_", and each empty position by a blank space.
 
-`snake_append_head` should add an additional segment to the snake at the position specified by the `x` and `y` parameters.  The new segment will become the new "head" segment.  All of the existing segments should remain in place.
+Here is an example run (user input in bold):
 
-`snake_remove_tail` should remove the last segment of the snake.
+<pre>
+Position 1 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 2 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 3 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 4 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
+Position 5 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>2</b>
+Position 6 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 7 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 8 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
+Position 9 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>0</b>
+Position 10 (0=empty, 1=upright, 2=tipping, 3=horizontal): <b>1</b>
 
-`snake_get_head` should return the `struct Point` corresponding to the "head" of the snake.
+Initial configuration:
+&vert;&vert;&vert; /&vert;&vert;&vert; &vert;
 
-## Implementing the snake
+Tipping over domino 0:
+/&vert;&vert; /&vert;&vert;&vert; &vert;
 
-A good way to represent the snake is using an array of segments, such that each segment is an x/y coordinate pair (e.g., a `struct Point`).  Because the number of segments varies (increasing each time the snake eats a piece of fruit), the snake struct type should use a counter field to keep track of how many segments there are.  The snake struct type should also keep track of which direction the snake is moving in.  Here is a recommendation for how to define the `struct Snake` data type:
+Time step 1:
+&#95;/&vert; &#95;/&vert;&vert; &vert;
+Time step 2:
+&#95;&#95;/ &#95;&#95;/&vert; &vert;
+Time step 3:
+&#95;&#95;&#95; &#95;&#95;&#95;/ &vert;
+Time step 4:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 5:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 6:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 7:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 8:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 9:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+Time step 10:
+&#95;&#95;&#95; &#95;&#95;&#95;&#95; &vert;
+</pre>
 
-{% highlight cpp %}
-struct Snake {
-    struct Point segments[MAX_SEGMENTS];
-    int num_segments;  // how many segments the snake has
-    int dir;           // which direction the snake is moving in
-};
-{% endhighlight %}
+### Hints
 
-When the game starts, the snake should have 8 segments.
+To represent the simulation data, use an array of integer values to represent the playing field. The element at position 0 is position 1, the element at index 1 is position 2, etc. The value of each element determines what is at that position: 0 for an empty space, 1 for an upright domino, 2 for a tipping domino, 3 for a horizontal domino.
 
-To get a sense of how an 8-segment snake would be represented, please refer to the [Assignment 5 data representation](../design/assign05datarepresentation.pdf) document.
+Each iteration of the loop that prints the playing field should print a character representing one position. Print "\|" if the position has an upright domino, "/" if the position has a tipping domino, etc.
 
-The game should allow the snake to have up to 100 segments, so the `MAX_SEGMENTS` constant should be defined as 100.
+To implement the simulation, each time step should be implemented as two **for** loops:
 
-Moving the snake is conceptually quite simple: a new head segment is added, based on the location of the current head segment and the snake's direction of motion.  If the length of the snake isn't changing (meaning that the snake did not eat a piece of fruit, or the snake is already at the maximum length), then the "tail" segment should be removed by calling the `snake_remove_tail` function.  Adding a new head segment should be done by calling the `snake_append_head` function.
+-   The first loop finds each tipping domino, changes its right neighbor to "ready to tip" (if it is upright), and then changes the original domino to horizontal.
+-   The second loop finds each "ready to tip" domino and changes it to "tipping".
 
-Moving the snake is conceptually quite simple: just remove the current tail segment by calling `snake_remove_tail` and append a new head segment by calling `snake_append_head`.  The position of the new head can be determined from the position of the current head segment and the snake's direction.
+You should use a value for "ready to tip" positions that is distinct from the values that represent empty, upright, tipping, and horizontal.
 
-Here is a suggested approach to implementing the `snake_append_head` and `snake_remove_tail` functions:
+Use a third for loop to print out the configuration of the playing field after the simulation of the timestep has completed.
 
-* `snake_append_head`: Just set the x and y coordinates of the new head segment in the appropriate element of the array of segments (the one just past the last segment), and increment the total number of segments by 1.
-* `snake_remove_tail`: The easiest way is to move each segment other than the tail segment back by one position in the array of segments, and then decrement the number of segments.  You will need a loop to move the segments.
+### Grading
 
-If you follow this approach, the tail segment is element 0 in the array of segments, and head segment is the one whose index is one less than the total number of segments.
+Out of 100 points:
 
-The `scene_update` function should move the snake each time it is called.  It should also check to see if the snake's head has gone out of bounds or has collided with the snake's body, and should check to see if the piece of fruit was eaten.
-
-Growing the snake (when a piece of fruit is eaten) is easy: just add a new head segment without removing the current tail segment.
-
-## Representing movement direction
-
-The head of the snake is always moving up, down, right, or left.
-
-If you use the suggested definition for the `struct Snake` data type, then you can use the `dir` field to keep track of which direction the snake is moving in.
-
-It will be helpful to define constants for the different possible directions: e.g.:
-
-```c
-#define UP    0
-#define DOWN  1
-#define RIGHT 2
-#define LEFT  3
-```
-
-Note that there is nothing special about the specific integer values used to represent directions.  The only requirement is that each direction can be distinguished from the other directions.
-
-## Handling user input
-
-In the `scene_update` function, call the `cons_get_keypress()` function.  If it returns one of the arrow keys (`UP_ARROW`, `RIGHT_ARROW`, `DOWN_ARROW`, or `LEFT_ARROW`), then change the direction of the snake as appropriate.  Note that you should not allow the snake to reverse its direction: for example, if the snake's head is currently moving up, then `scene_update` should do nothing if `DOWN_ARROW` is pressed.
-
-If the `q` key is pressed, then `scene_update` should return 0, causing the `main` function to finish (and the program to exit.)   Otherwise, `scene_update` should return 1 (causing `main` to keep running.)
-
-Note that the `cons_get_keypress()` function will return -1 if no key has been pressed.
-
-## Scoring
-
-Each time the snake eats a piece of fruit, the player earns a number of points equal to 10 times the snake's current number of segments.
-
-# Design artifacts
-
-The design artifacts are due in class on **Thursday, April 26th** for the following functions:
-* `snake_append_head`
-* `snake_remove_tail`
-
-# Grading
-
-Your grade will be determined according to the following criteria:
-
-Standard features (complete these for full credit on the assignment):
-
-* design artifacts: 10
-* `struct Scene` has representation of snake: 5
-* snake is displayed: 15
-* snake moves: 20
-* player can control snake: 20
-* game ends when snake goes out of bounds: 8
-* game ends when snake's head collides with its body: 8
-* pressing `q` ends the program: 4
-* good coding style: 10
-
-Extra credit features (complete these for up to 40 points of extra credit):
-
-* `struct Scene` has representation of fruit: 5
-* fruit is placed randomly and doesn't overlap snake: 5
-* snake can eat the fruit: 5
-* snake grows by one segment when fruit is eaten: 10
-* score increases when fruit is eaten: 5
-* score is displayed: 5
-* number of segments is displayed: 5
-
-**Important**: Include a comment at the top of your program explaining which extra credit features you implemented.
+-   Design artifact: 10
+-   Declaration of an array to represent the playing field: 8
+-   Loop to read a value for each position of the playing field: 8
+-   Store each position value in the appropriate array element: 8
+-   Loop to print a "picture" (line of text) of the playing field: 8
+-   Tip first domino, print dominos: 8
+-   One timestep:
+    -   Loop to change successors of tipping dominoes to "ready to tip": 10
+    -   Loop to change "ready to tip" to tipping: 10
+    -   Print dominos at end of timestep: 10
+-   Loop to simulate 10 timesteps: 20
 
 # Submitting
 
-To submit your work, make sure your **Snake.cpp** file is saved, and in the Cygwin window type the command
+To submit your work, make sure your **FallingDominos.cpp** file is saved, and in the Cygwin window type the command
 
     make submit
 
