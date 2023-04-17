@@ -25,8 +25,8 @@ Labs are worth 10% of your course grade.  To receive credit for a lab, you must 
 > Apr 12        | [Lab 14: Right Triangle](lab14.html)               | [CS101\_Lab14.zip](CS101_Lab14.zip) 
 > Apr 12        | [Lab 15: Simple Stats](lab15.html)                 | [CS101\_Lab15.zip](CS101_Lab15.zip)
 > Apr 18        | [Lab 16: Function Design](lab16.html)              | [CS101\_Lab16.zip](CS101_Lab16.zip)
-> Apr 24         | [Lab 18: Fancy Output](lab18.html) <br /> [Lab 21: Boing! revisited](lab21.html) | [CS101\_Lab18.zip](CS101_Lab18.zip) <br /> [CS101\_Lab21.zip](CS101_Lab21.zip)
-> Apr 26         | [Lab 19: Boing!](lab19.html) <br /> [Lab 23: Boing! with pointers](lab23.html) | [CS101\_Lab19.zip](CS101_Lab19.zip) <br /> [CS101\_Lab23.zip](CS101_Lab23.zip)
+> Apr 24         | [Lab 18: Fancy Output](lab18.html) <br /> [Lab 19: Boing!](lab19.html) | [CS101\_Lab18.zip](CS101_Lab18.zip) <br /> [CS101\_Lab19.zip](CS101_Lab19.zip)
+> Apr 26         | [Lab 21: Boing! revisited](lab21.html) <br /> [Lab 23: Boing! with pointers](lab23.html) | [CS101\_Lab21.zip](CS101_Lab21.zip) <br /> [CS101\_Lab23.zip](CS101_Lab23.zip)
 > Apr 26         | [Lab 24: Mini Golf](lab24.html)                    | [CS101\_Lab24.zip](CS101_Lab24.zip)
 
 <!--
