@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 4: Struct Exercises"
 ---
 
-Due: **Monday, Apr 24th** by 11:59 PM
+Due: **Wednesday, Apr 26th** by 11:59 PM
 
 <div class="callout">
 Note that late submissions will <em>not</em> be accepted for this assignment.
@@ -19,7 +19,7 @@ Your task for this assignment is to complete the following CloudCoder exercises.
 
 The exercises:
 
-1. [orderPrice](https://cs.ycp.edu/cloudcoder/#exercise?c34,p=1862) <!-- 23:42 -->
+1. [orderPrice](https://cs.ycp.edu/cloudcoder/#exercise?c34,p=1862) <!-- 23:42 -->https://cs.ycp.edu/cloudcoder/#exercise?c=34,p=1862
 2. [checkThing](https://cs.ycp.edu/cloudcoder/#exercise?c34,p=1861) <!-- 23:41 -->
 3. [computeDiffuse](https://cs.ycp.edu/cloudcoder/#exercise?c34,p=1860) <!-- 23:40 -->
 4. [Tax time](https://cs.ycp.edu/cloudcoder/#exercise?c34,p=1863) <!-- 23:43 -->
