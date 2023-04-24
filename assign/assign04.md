@@ -3,7 +3,9 @@ layout: default
 title: "Assignment 4: Struct Exercises"
 ---
 
-Due: **Wednesday, Apr 26th** by 11:59 PM
+**New due date: **Wednesday, Apr 26th** by 11:59 PM**
+
+~~**Old due date: **Monday, Apr 24th** by 11:59 PM**~~
 
 <div class="callout">
 Note that late submissions will <em>not</em> be accepted for this assignment.
