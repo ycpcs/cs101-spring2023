@@ -49,8 +49,10 @@ All information about the course will be posted here.
 	* A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Apr 14** &mdash; The due date for [Assignment 3](assign/assign03.html) is **Friday, Apr 14th**.
 * **Apr 26** &mdash; The due date for [Assignment 4](assign/assign04.html) is **Wednesday, Apr 26th**.
-* **May 05** &mdash; Exam 1 will be given in class on **Thursday, May 04th**.  A practice exam is available on the [Practice Exams](practice/index.html) page.
-* **May 11** &mdash; Final Exam will be given in class on **Thursday, May 11th**.  A practice exam is available on the [Practice Exams](practice/index.html) page.
+* **May 05** &mdash; Exam 3 will be given in class on **Thursday, May 04th**.  
+   * A practice exam is available on the [Practice Exams](practice/index.html) page.
+* **May 11** &mdash; Final Exam will be given in class on **Thursday, May 11th**.  
+   * A practice exam is available on the [Practice Exams](practice/index.html) page.
 
 <!--
 
