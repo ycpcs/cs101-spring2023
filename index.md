@@ -52,7 +52,7 @@ All information about the course will be posted here.
 * **May 05** &mdash; Exam 3 will be given in class on **Thursday, May 04th**.  
    * A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **May 11** &mdash; Final Exam will be given in class on **Thursday, May 11th**.  
-   * A practice exam is available on the [Practice Exams](practice/index.html) page.
+   
 
 <!--
 
